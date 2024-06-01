@@ -37,23 +37,22 @@
 
         <!-- .cards-container.container.flex>.card>div.card-header>img^.card-content>h3+h6 
         Above line shortcut emmet snippet - very helpful way-->
-        <div class="cards-container container flex">
+        <div class="cards-container container flex" id="cards-container">
 
         </div>
 
     </main>
 
-    <template>
+    <template id='news-card-template'>
         <div class="card">
             <div class="card-header">
-                <img src="https://via.placeholder.com/400x200" alt="">
+                <img src="https://via.placeholder.com/400x200" alt="" id="news-img">
             </div>
             <div class="card-content">
                 <h3 id="news-title">This is the Title</h3>
                 <h6 class="news-source" id="news-source">End Gadget 30/05/24</h6>
-                <p class="card-desc" id="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-                    maxime ea
-                    nam esse id eius alias illum, hic iure at.</p>
+                <p class="card-desc" id="card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae,
+                    quaerat earum officia debitis voluptatem quae excepturi quidem commodi adipisci sapiente.</p>
             </div>
         </div>
     </template>
